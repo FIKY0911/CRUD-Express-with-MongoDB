@@ -1,4 +1,4 @@
-import mongoose, { model } from "mongoose";
+import mongoose from "mongoose";
 
 // Model dasar
 const productSchema = new mongoose.Schema({

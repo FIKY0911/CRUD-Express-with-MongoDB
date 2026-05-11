@@ -1,8 +1,8 @@
 import mongoose from "mongoose";
-import Product from './models/product.js'
+import Product from '../models/product.js';
 
 mongoose
-  .connect("mongodb://127.0.0.1:27017/shop_db ")
+  .connect("mongodb://127.0.0.1:27017/shop_db")
   .then((result) => {
     console.log("Connected to MongoDb");
     seedDB()
